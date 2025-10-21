@@ -19,7 +19,7 @@ export function Footer() {
         <p className="text-gray-200/80 mb-4">© 2025 Earth Explorer. Discover the world, one region at a time.</p>
         <ul className="flex justify-center space-x-6">
           <li><Link to="#" className="text-gray-300/80 hover:text-yellow-200/80 transition-all duration-300">Privacy</Link></li>
-          <li><Link to="/contact" className="text-gray-300/80 hover:text-yellow-200/80 transition-all duration-300">Contact</Link></li>
+          {/* <li><Link to="/contact" className="text-gray-300/80 hover:text-yellow-200/80 transition-all duration-300">Contact</Link></li> */}
           <li><Link to="/about" className="text-gray-300/80 hover:text-yellow-200/80 transition-all duration-300">About</Link></li>
         </ul>
       </div>

@@ -21,27 +21,33 @@ export const AppRoutes = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <ProtectedRoute><Home /></ProtectedRoute>,
+        element:<Home />,
+        //  <ProtectedRoute></ProtectedRoute>,
       },
       {
         path: "about",
-        element:<ProtectedRoute><About /></ProtectedRoute> ,
+        element:<About />,
+        // <ProtectedRoute></ProtectedRoute> ,
       },
       {
         path: "contact",
-        element: <ProtectedRoute><Contact /></ProtectedRoute>,
+        element: <Contact />,
+        // <ProtectedRoute></ProtectedRoute>,
       },
       {
         path: "countries",
-        element: <ProtectedRoute><Countries /></ProtectedRoute>,
+        element: <Countries />,
+        // <ProtectedRoute></ProtectedRoute>,
       },
       {
         path: "facts",
-        element: <ProtectedRoute><Facts /></ProtectedRoute>,
+        element:<Facts />,
+        //  <ProtectedRoute></ProtectedRoute>,
       },
       {
         path: "regions",  
-        element: <ProtectedRoute><Regions /></ProtectedRoute>,
+        element:<Regions />,
+        //  <ProtectedRoute></ProtectedRoute>,
       },
     ],
   },
