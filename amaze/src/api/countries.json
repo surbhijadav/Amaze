@@ -1,0 +1,1631 @@
+[
+    {
+      "id": 1,
+      "name": "Afghanistan",
+      "capital": "Kabul",
+      "population": "41.1 million",
+      "region": "South Asia",
+      "facts": "Home to the ancient Silk Road, has never been fully conquered",
+      "special": "Known as 'Graveyard of Empires'"
+    },
+    {
+      "id": 2,
+      "name": "Albania",
+      "capital": "Tirana",
+      "population": "2.8 million",
+      "region": "Southeast Europe",
+      "facts": "Has more bunkers per capita than anywhere else in the world",
+      "special": "Over 700,000 bunkers built during communist era"
+    },
+    {
+      "id": 3,
+      "name": "Algeria",
+      "capital": "Algiers",
+      "population": "45.4 million",
+      "region": "North Africa",
+      "facts": "Largest country in Africa, 80% is Sahara Desert",
+      "special": "Has seven UNESCO World Heritage Sites"
+    },
+    {
+      "id": 4,
+      "name": "Andorra",
+      "capital": "Andorra la Vella",
+      "population": "79,824",
+      "region": "Southern Europe",
+      "facts": "Co-ruled by France and Spain, no airport or military",
+      "special": "Tax haven with highest life expectancy"
+    },
+    {
+      "id": 5,
+      "name": "Angola",
+      "capital": "Luanda",
+      "population": "35.6 million",
+      "region": "Central Africa",
+      "facts": "Major oil producer, Portuguese is official language",
+      "special": "Has the second largest waterfall in Africa"
+    },
+    {
+      "id": 6,
+      "name": "Antigua and Barbuda",
+      "capital": "St. John's",
+      "population": "103,050",
+      "region": "Caribbean",
+      "facts": "Has 365 beaches, one for each day of the year",
+      "special": "Cricket is the national sport"
+    },
+    {
+      "id": 7,
+      "name": "Argentina",
+      "capital": "Buenos Aires",
+      "population": "45.8 million",
+      "region": "South America",
+      "facts": "Invented the tango dance, has the world's widest avenue",
+      "special": "Home to the southernmost city in the world"
+    },
+    {
+      "id": 8,
+      "name": "Armenia",
+      "capital": "Yerevan",
+      "population": "2.9 million",
+      "region": "Western Asia",
+      "facts": "First nation to adopt Christianity as state religion",
+      "special": "Mount Ararat on flag but located in Turkey"
+    },
+    {
+      "id": 9,
+      "name": "Australia",
+      "capital": "Canberra",
+      "population": "26.6 million",
+      "region": "Oceania",
+      "facts": "Only country that's also a continent, has deadly animals",
+      "special": "Great Barrier Reef visible from space"
+    },
+    {
+      "id": 10,
+      "name": "Austria",
+      "capital": "Vienna",
+      "population": "9.1 million",
+      "region": "Central Europe",
+      "facts": "Birthplace of Mozart, invented the croissant",
+      "special": "Has more classical music composers per capita"
+    },
+    {
+      "id": 11,
+      "name": "Azerbaijan",
+      "capital": "Baku",
+      "population": "10.3 million",
+      "region": "Western Asia",
+      "facts": "Land of fire, has mud volcanoes and natural gas flames",
+      "special": "Produces high-quality caviar from Caspian Sea"
+    },
+    {
+      "id": 12,
+      "name": "Bahamas",
+      "capital": "Nassau",
+      "population": "409,984",
+      "region": "Caribbean",
+      "facts": "Made up of 700 islands, swimming pigs attraction",
+      "special": "Has pink sand beaches from crushed coral"
+    },
+    {
+      "id": 13,
+      "name": "Bahrain",
+      "capital": "Manama",
+      "population": "1.8 million",
+      "region": "Western Asia",
+      "facts": "Island nation, first Gulf country to discover oil",
+      "special": "Formula 1 Grand Prix held here annually"
+    },
+    {
+      "id": 14,
+      "name": "Bangladesh",
+      "capital": "Dhaka",
+      "population": "171.2 million",
+      "region": "South Asia",
+      "facts": "Has the world's longest sea beach (Cox's Bazar)",
+      "special": "World's largest river delta"
+    },
+    {
+      "id": 15,
+      "name": "Barbados",
+      "capital": "Bridgetown",
+      "population": "281,995",
+      "region": "Caribbean",
+      "facts": "Birthplace of rum and grapefruit, Rihanna's homeland",
+      "special": "Recently became a republic in 2021"
+    },
+    {
+      "id": 16,
+      "name": "Belarus",
+      "capital": "Minsk",
+      "population": "9.4 million",
+      "region": "Eastern Europe",
+      "facts": "Last dictatorship in Europe, produces heavy machinery",
+      "special": "Has Europe's last primeval forest"
+    },
+    {
+      "id": 17,
+      "name": "Belgium",
+      "capital": "Brussels",
+      "population": "11.7 million",
+      "region": "Western Europe",
+      "facts": "Invented french fries and has over 1,000 beer varieties",
+      "special": "EU headquarters located here"
+    },
+    {
+      "id": 18,
+      "name": "Belize",
+      "capital": "Belmopan",
+      "population": "441,471",
+      "region": "Central America",
+      "facts": "Only English-speaking country in Central America",
+      "special": "Has the second largest barrier reef"
+    },
+    {
+      "id": 19,
+      "name": "Benin",
+      "capital": "Porto-Novo",
+      "population": "13.5 million",
+      "region": "West Africa",
+      "facts": "Birthplace of voodoo religion, former Dahomey kingdom",
+      "special": "Has stilted village of Ganvié on water"
+    },
+    {
+      "id": 20,
+      "name": "Bhutan",
+      "capital": "Thimphu",
+      "population": "787,424",
+      "region": "South Asia",
+      "facts": "Measures Gross National Happiness instead of GDP",
+      "special": "Only carbon-negative country in the world"
+    },
+    {
+      "id": 21,
+      "name": "Bolivia",
+      "capital": "Sucre/La Paz",
+      "population": "12.2 million",
+      "region": "South America",
+      "facts": "Has two capital cities, world's largest salt flat",
+      "special": "Landlocked but has a navy"
+    },
+    {
+      "id": 22,
+      "name": "Bosnia and Herzegovina",
+      "capital": "Sarajevo",
+      "population": "3.2 million",
+      "region": "Southeast Europe",
+      "facts": "Where WWI started, has a pyramid controversy",
+      "special": "Bridge capital with famous Stari Most"
+    },
+    {
+      "id": 23,
+      "name": "Botswana",
+      "capital": "Gaborone",
+      "population": "2.4 million",
+      "region": "Southern Africa",
+      "facts": "Kalahari Desert covers 70%, diamond mining nation",
+      "special": "Africa's longest-running democracy"
+    },
+    {
+      "id": 24,
+      "name": "Brazil",
+      "capital": "Brasília",
+      "population": "216.4 million",
+      "region": "South America",
+      "facts": "Has the Amazon rainforest, speaks Portuguese",
+      "special": "Won FIFA World Cup 5 times"
+    },
+    {
+      "id": 25,
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan",
+      "population": "452,524",
+      "region": "Southeast Asia",
+      "facts": "Sultan's palace has 1,788 rooms, no personal taxes",
+      "special": "One of the richest countries per capita"
+    },
+    {
+      "id": 26,
+      "name": "Bulgaria",
+      "capital": "Sofia",
+      "population": "6.9 million",
+      "region": "Southeast Europe",
+      "facts": "Invented the Cyrillic alphabet, rose oil producer",
+      "special": "Nodding means 'no' and shaking means 'yes'"
+    },
+    {
+      "id": 27,
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou",
+      "population": "23.3 million",
+      "region": "West Africa",
+      "facts": "Means 'Land of Honest Men', cotton producer",
+      "special": "Has Africa's largest film festival"
+    },
+    {
+      "id": 28,
+      "name": "Burundi",
+      "capital": "Gitega",
+      "population": "13.2 million",
+      "region": "East Africa",
+      "facts": "One of the smallest African countries, coffee producer",
+      "special": "Has one of the youngest populations globally"
+    },
+    {
+      "id": 29,
+      "name": "Cambodia",
+      "capital": "Phnom Penh",
+      "population": "16.9 million",
+      "region": "Southeast Asia",
+      "facts": "Home to Angkor Wat, ancient Khmer Empire",
+      "special": "Has a flag featuring a building"
+    },
+    {
+      "id": 30,
+      "name": "Cameroon",
+      "capital": "Yaoundé",
+      "population": "28.6 million",
+      "region": "Central Africa",
+      "facts": "Africa in miniature, has diverse landscapes",
+      "special": "Birthplace of bikutsi music genre"
+    },
+    {
+      "id": 31,
+      "name": "Canada",
+      "capital": "Ottawa",
+      "population": "39.1 million",
+      "region": "North America",
+      "facts": "Has two official languages, invented basketball",
+      "special": "World's longest coastline"
+    },
+    {
+      "id": 32,
+      "name": "Cape Verde",
+      "capital": "Praia",
+      "population": "598,682",
+      "region": "West Africa",
+      "facts": "Island nation, morna music birthplace",
+      "special": "Has no traffic lights in entire country"
+    },
+    {
+      "id": 33,
+      "name": "Central African Republic",
+      "capital": "Bangui",
+      "population": "5.6 million",
+      "region": "Central Africa",
+      "facts": "Landlocked, rich in diamonds and uranium",
+      "special": "Has one of the world's largest national parks"
+    },
+    {
+      "id": 34,
+      "name": "Chad",
+      "capital": "N'Djamena",
+      "population": "18.3 million",
+      "region": "Central Africa",
+      "facts": "Named after Lake Chad, landlocked country",
+      "special": "Has over 100 languages spoken"
+    },
+    {
+      "id": 35,
+      "name": "Chile",
+      "capital": "Santiago",
+      "population": "19.6 million",
+      "region": "South America",
+      "facts": "World's longest and narrowest country",
+      "special": "Contains the Atacama Desert, driest place on Earth"
+    },
+    {
+      "id": 36,
+      "name": "China",
+      "capital": "Beijing",
+      "population": "1.41 billion",
+      "region": "East Asia",
+      "facts": "Built the Great Wall, invented paper and gunpowder",
+      "special": "Most populous country in the world"
+    },
+    {
+      "id": 37,
+      "name": "Colombia",
+      "capital": "Bogotá",
+      "population": "52.1 million",
+      "region": "South America",
+      "facts": "World's leading emerald producer, coffee exporter",
+      "special": "Only South American country with Pacific and Atlantic coasts"
+    },
+    {
+      "id": 38,
+      "name": "Comoros",
+      "capital": "Moroni",
+      "population": "912,171",
+      "region": "East Africa",
+      "facts": "Island nation, produces vanilla and ylang-ylang",
+      "special": "Has had over 20 coups since independence"
+    },
+    {
+      "id": 39,
+      "name": "Congo (Republic)",
+      "capital": "Brazzaville",
+      "population": "6.0 million",
+      "region": "Central Africa",
+      "facts": "Oil producer, Congo River flows through it",
+      "special": "Capital faces Kinshasa across the river"
+    },
+    {
+      "id": 40,
+      "name": "Congo (Democratic Republic)",
+      "capital": "Kinshasa",
+      "population": "102.3 million",
+      "region": "Central Africa",
+      "facts": "Rich in minerals, especially cobalt and diamonds",
+      "special": "Second largest country in Africa"
+    },
+    {
+      "id": 41,
+      "name": "Costa Rica",
+      "capital": "San José",
+      "population": "5.2 million",
+      "region": "Central America",
+      "facts": "Abolished its army in 1948, eco-tourism pioneer",
+      "special": "Happiest country in Latin America"
+    },
+    {
+      "id": 42,
+      "name": "Croatia",
+      "capital": "Zagreb",
+      "population": "3.9 million",
+      "region": "Southeast Europe",
+      "facts": "Invented the necktie, has 1,000+ islands",
+      "special": "FIFA World Cup runners-up in 2018"
+    },
+    {
+      "id": 43,
+      "name": "Cuba",
+      "capital": "Havana",
+      "population": "11.3 million",
+      "region": "Caribbean",
+      "facts": "Largest Caribbean island, classic car paradise",
+      "special": "Has a 99% literacy rate"
+    },
+    {
+      "id": 44,
+      "name": "Cyprus",
+      "capital": "Nicosia",
+      "population": "1.3 million",
+      "region": "Western Asia",
+      "facts": "Birthplace of Aphrodite, divided island",
+      "special": "Only divided capital city in the world"
+    },
+    {
+      "id": 45,
+      "name": "Czech Republic",
+      "capital": "Prague",
+      "population": "10.5 million",
+      "region": "Central Europe",
+      "facts": "Consumes most beer per capita, invented contact lenses",
+      "special": "Has the most castles in the world"
+    },
+    {
+      "id": 46,
+      "name": "Denmark",
+      "capital": "Copenhagen",
+      "population": "5.9 million",
+      "region": "Northern Europe",
+      "facts": "Home of LEGO and Hans Christian Andersen",
+      "special": "Happiest country in the world (often ranked)"
+    },
+    {
+      "id": 47,
+      "name": "Djibouti",
+      "capital": "Djibouti City",
+      "population": "1.1 million",
+      "region": "East Africa",
+      "facts": "Strategic location at Red Sea entrance",
+      "special": "Hottest country in the world year-round"
+    },
+    {
+      "id": 48,
+      "name": "Dominica",
+      "capital": "Roseau",
+      "population": "72,737",
+      "region": "Caribbean",
+      "facts": "Nature island with 365 rivers, whale watching",
+      "special": "Only country with sperm whales year-round"
+    },
+    {
+      "id": 49,
+      "name": "Dominican Republic",
+      "capital": "Santo Domingo",
+      "population": "11.4 million",
+      "region": "Caribbean",
+      "facts": "Shares island with Haiti, baseball powerhouse",
+      "special": "First European settlement in the Americas"
+    },
+    {
+      "id": 50,
+      "name": "East Timor",
+      "capital": "Dili",
+      "population": "1.4 million",
+      "region": "Southeast Asia",
+      "facts": "Youngest country in Asia (independence 2002)",
+      "special": "Has two official languages: Portuguese and Tetum"
+    },
+    {
+      "id": 51,
+      "name": "Ecuador",
+      "capital": "Quito",
+      "population": "18.0 million",
+      "region": "South America",
+      "facts": "Named after the equator, Galápagos Islands belong to it",
+      "special": "First country to grant rights to nature in constitution"
+    },
+    {
+      "id": 52,
+      "name": "Egypt",
+      "capital": "Cairo",
+      "population": "109.3 million",
+      "region": "North Africa",
+      "facts": "Built the ancient pyramids, gave us hieroglyphics",
+      "special": "The Nile River flows through it"
+    },
+    {
+      "id": 53,
+      "name": "El Salvador",
+      "capital": "San Salvador",
+      "population": "6.6 million",
+      "region": "Central America",
+      "facts": "Smallest Central American country, adopted Bitcoin",
+      "special": "First country to make Bitcoin legal tender"
+    },
+    {
+      "id": 54,
+      "name": "Equatorial Guinea",
+      "capital": "Malabo",
+      "population": "1.7 million",
+      "region": "Central Africa",
+      "facts": "Only Spanish-speaking African country, oil-rich",
+      "special": "Has the highest GDP per capita in Africa"
+    },
+    {
+      "id": 55,
+      "name": "Eritrea",
+      "capital": "Asmara",
+      "population": "3.7 million",
+      "region": "East Africa",
+      "facts": "Newest African country (1993), Red Sea coastline",
+      "special": "Has no official language despite 9 recognized ones"
+    },
+    {
+      "id": 56,
+      "name": "Estonia",
+      "capital": "Tallinn",
+      "population": "1.3 million",
+      "region": "Northern Europe",
+      "facts": "Most digitally advanced society, invented Skype",
+      "special": "First country to offer e-residency"
+    },
+    {
+      "id": 57,
+      "name": "Eswatini",
+      "capital": "Mbabane",
+      "population": "1.2 million",
+      "region": "Southern Africa",
+      "facts": "Formerly Swaziland, absolute monarchy",
+      "special": "Last absolute monarchy in Africa"
+    },
+    {
+      "id": 58,
+      "name": "Ethiopia",
+      "capital": "Addis Ababa",
+      "population": "126.5 million",
+      "region": "East Africa",
+      "facts": "Never fully colonized, coffee originated here",
+      "special": "Has its own calendar with 13 months"
+    },
+    {
+      "id": 59,
+      "name": "Fiji",
+      "capital": "Suva",
+      "population": "936,375",
+      "region": "Oceania",
+      "facts": "Made up of 333 islands, rugby powerhouse",
+      "special": "Only country to have defeated all current tier-one rugby nations"
+    },
+    {
+      "id": 60,
+      "name": "Finland",
+      "capital": "Helsinki",
+      "population": "5.6 million",
+      "region": "Northern Europe",
+      "facts": "Land of 1,000 lakes, invented Nokia and Linux",
+      "special": "Happiest country in the world (multiple years)"
+    },
+    {
+      "id": 61,
+      "name": "France",
+      "capital": "Paris",
+      "population": "68.4 million",
+      "region": "Western Europe",
+      "facts": "Invented cinema, gave Statue of Liberty to USA",
+      "special": "Most visited country in the world"
+    },
+    {
+      "id": 62,
+      "name": "Gabon",
+      "capital": "Libreville",
+      "population": "2.4 million",
+      "region": "Central Africa",
+      "facts": "Oil-rich, 80% covered by rainforest",
+      "special": "Has 13 national parks protecting wildlife"
+    },
+    {
+      "id": 63,
+      "name": "Gambia",
+      "capital": "Banjul",
+      "population": "2.8 million",
+      "region": "West Africa",
+      "facts": "Smallest mainland African country, river nation",
+      "special": "Completely surrounded by Senegal except for coast"
+    },
+    {
+      "id": 64,
+      "name": "Georgia",
+      "capital": "Tbilisi",
+      "population": "3.7 million",
+      "region": "Western Asia",
+      "facts": "Birthplace of wine 8,000 years ago, unique alphabet",
+      "special": "Has its own ancient writing system"
+    },
+    {
+      "id": 65,
+      "name": "Germany",
+      "capital": "Berlin",
+      "population": "83.2 million",
+      "region": "Central Europe",
+      "facts": "Invented the automobile, has over 400 zoos",
+      "special": "Largest economy in Europe"
+    },
+    {
+      "id": 66,
+      "name": "Ghana",
+      "capital": "Accra",
+      "population": "33.5 million",
+      "region": "West Africa",
+      "facts": "First African country to gain independence, cocoa producer",
+      "special": "Birthplace of Kofi Annan (former UN Secretary-General)"
+    },
+    {
+      "id": 67,
+      "name": "Greece",
+      "capital": "Athens",
+      "population": "10.4 million",
+      "region": "Southern Europe",
+      "facts": "Birthplace of democracy and Olympics, 6,000 islands",
+      "special": "Has more archaeological museums than any other country"
+    },
+    {
+      "id": 68,
+      "name": "Grenada",
+      "capital": "St. George's",
+      "population": "125,438",
+      "region": "Caribbean",
+      "facts": "Spice island, produces nutmeg and mace",
+      "special": "Smallest country to ever win Olympic gold"
+    },
+    {
+      "id": 69,
+      "name": "Guatemala",
+      "capital": "Guatemala City",
+      "population": "18.6 million",
+      "region": "Central America",
+      "facts": "Home to Mayan civilization, coffee and jade producer",
+      "special": "Has the deepest lake in Central America"
+    },
+    {
+      "id": 70,
+      "name": "Guinea",
+      "capital": "Conakry",
+      "population": "14.2 million",
+      "region": "West Africa",
+      "facts": "Major bauxite producer, French colonial past",
+      "special": "Has the source of major West African rivers"
+    },
+    {
+      "id": 71,
+      "name": "Guinea-Bissau",
+      "capital": "Bissau",
+      "population": "2.1 million",
+      "region": "West Africa",
+      "facts": "Small coastal nation, cashew nut producer",
+      "special": "Has over 80 islands in its archipelago"
+    },
+    {
+      "id": 72,
+      "name": "Guyana",
+      "capital": "Georgetown",
+      "population": "813,834",
+      "region": "South America",
+      "facts": "Only English-speaking South American country",
+      "special": "Recently discovered massive oil reserves"
+    },
+    {
+      "id": 73,
+      "name": "Haiti",
+      "capital": "Port-au-Prince",
+      "population": "11.7 million",
+      "region": "Caribbean",
+      "facts": "First Black republic, shares island with Dominican Republic",
+      "special": "Only country whose independence was gained through slave revolt"
+    },
+    {
+      "id": 74,
+      "name": "Honduras",
+      "capital": "Tegucigalpa",
+      "population": "10.4 million",
+      "region": "Central America",
+      "facts": "Has ancient Mayan ruins, coffee producer",
+      "special": "Second largest country in Central America"
+    },
+    {
+      "id": 75,
+      "name": "Hungary",
+      "capital": "Budapest",
+      "population": "9.6 million",
+      "region": "Central Europe",
+      "facts": "Invented the ballpoint pen and Rubik's cube",
+      "special": "Has more thermal springs than any other country"
+    },
+    {
+      "id": 76,
+      "name": "Iceland",
+      "capital": "Reykjavik",
+      "population": "375,318",
+      "region": "Northern Europe",
+      "facts": "Land of fire and ice, geothermal energy pioneer",
+      "special": "Most peaceful country in the world"
+    },
+    {
+      "id": 77,
+      "name": "India",
+      "capital": "New Delhi",
+      "population": "1.42 billion",
+      "region": "South Asia",
+      "facts": "Invented chess and shampoo, has 22 official languages",
+      "special": "World's largest democracy"
+    },
+    {
+      "id": 78,
+      "name": "Indonesia",
+      "capital": "Jakarta",
+      "population": "277.5 million",
+      "region": "Southeast Asia",
+      "facts": "Largest archipelago with 17,000+ islands",
+      "special": "Most volcanically active country"
+    },
+    {
+      "id": 79,
+      "name": "Iran",
+      "capital": "Tehran",
+      "population": "86.8 million",
+      "region": "Western Asia",
+      "facts": "Ancient Persian Empire, invented windmills",
+      "special": "Has the world's largest hand-woven carpet"
+    },
+    {
+      "id": 80,
+      "name": "Iraq",
+      "capital": "Baghdad",
+      "population": "45.5 million",
+      "region": "Western Asia",
+      "facts": "Cradle of civilization, ancient Mesopotamia",
+      "special": "Birthplace of writing and the wheel"
+    },
+    {
+      "id": 81,
+      "name": "Ireland",
+      "capital": "Dublin",
+      "population": "5.0 million",
+      "region": "Western Europe",
+      "facts": "Invented whiskey, no snakes on the island",
+      "special": "Has two official languages: Irish and English"
+    },
+    {
+      "id": 82,
+      "name": "Israel",
+      "capital": "Jerusalem",
+      "population": "9.8 million",
+      "region": "Western Asia",
+      "facts": "Only Jewish-majority state, tech startup nation",
+      "special": "Has more museums per capita than any other country"
+    },
+    {
+      "id": 83,
+      "name": "Italy",
+      "capital": "Rome",
+      "population": "59.1 million",
+      "region": "Southern Europe",
+      "facts": "Has more UNESCO sites than any other country",
+      "special": "Birthplace of Roman Empire and Renaissance"
+    },
+    {
+      "id": 84,
+      "name": "Ivory Coast",
+      "capital": "Yamoussoukro",
+      "population": "28.9 million",
+      "region": "West Africa",
+      "facts": "World's largest cocoa producer, French colonial past",
+      "special": "Has the world's largest basilica"
+    },
+    {
+      "id": 85,
+      "name": "Jamaica",
+      "capital": "Kingston",
+      "population": "2.8 million",
+      "region": "Caribbean",
+      "facts": "Birthplace of reggae music and Usain Bolt",
+      "special": "Fastest runners per capita in the world"
+    },
+    {
+      "id": 86,
+      "name": "Japan",
+      "capital": "Tokyo",
+      "population": "124.8 million",
+      "region": "East Asia",
+      "facts": "Has more vending machines per capita than anywhere",
+      "special": "Land of the Rising Sun, birthplace of anime"
+    },
+    {
+      "id": 87,
+      "name": "Jordan",
+      "capital": "Amman",
+      "population": "11.3 million",
+      "region": "Western Asia",
+      "facts": "Home to Petra, one of New Seven Wonders",
+      "special": "Lowest point on Earth's surface (Dead Sea)"
+    },
+    {
+      "id": 88,
+      "name": "Kazakhstan",
+      "capital": "Nur-Sultan",
+      "population": "19.8 million",
+      "region": "Central Asia",
+      "facts": "World's largest landlocked country, space launch site",
+      "special": "Produces 40% of world's uranium"
+    },
+    {
+      "id": 89,
+      "name": "Kenya",
+      "capital": "Nairobi",
+      "population": "56.0 million",
+      "region": "East Africa",
+      "facts": "Safari capital, birthplace of humanity evidence",
+      "special": "Great Migration occurs here annually"
+    },
+    {
+      "id": 90,
+      "name": "Kiribati",
+      "capital": "Tarawa",
+      "population": "133,515",
+      "region": "Oceania",
+      "facts": "33 atolls spread across 4 time zones",
+      "special": "First country to see each new day"
+    },
+    {
+      "id": 91,
+      "name": "Kuwait",
+      "capital": "Kuwait City",
+      "population": "4.3 million",
+      "region": "Western Asia",
+      "facts": "Oil-rich nation, liberated in Gulf War 1991",
+      "special": "Has the world's third largest oil reserves"
+    },
+    {
+      "id": 92,
+      "name": "Kyrgyzstan",
+      "capital": "Bishkek",
+      "population": "6.7 million",
+      "region": "Central Asia",
+      "facts": "Mountainous country, nomadic heritage",
+      "special": "More than 40% of country is above 3,000m elevation"
+    },
+    {
+      "id": 93,
+      "name": "Laos",
+      "capital": "Vientiane",
+      "population": "7.5 million",
+      "region": "Southeast Asia",
+      "facts": "Only landlocked Southeast Asian country",
+      "special": "Most bombed country in history per capita"
+    },
+    {
+      "id": 94,
+      "name": "Latvia",
+      "capital": "Riga",
+      "population": "1.9 million",
+      "region": "Northern Europe",
+      "facts": "Baltic state, invented the Christmas tree tradition",
+      "special": "Has Europe's widest waterfall"
+    },
+    {
+      "id": 95,
+      "name": "Lebanon",
+      "capital": "Beirut",
+      "population": "5.5 million",
+      "region": "Western Asia",
+      "facts": "Cedar trees symbol, ancient Phoenician homeland",
+      "special": "Only Arab country without a desert"
+    },
+    {
+      "id": 96,
+      "name": "Lesotho",
+      "capital": "Maseru",
+      "population": "2.3 million",
+      "region": "Southern Africa",
+      "facts": "Completely surrounded by South Africa",
+      "special": "Highest lowest point of any country (1,400m)"
+    },
+    {
+      "id": 97,
+      "name": "Liberia",
+      "capital": "Monrovia",
+      "population": "5.4 million",
+      "region": "West Africa",
+      "facts": "Founded by freed American slaves, never colonized",
+      "special": "Flag resembles US flag with one star"
+    },
+    {
+      "id": 98,
+      "name": "Libya",
+      "capital": "Tripoli",
+      "population": "7.0 million",
+      "region": "North Africa",
+      "facts": "90% desert, has largest oil reserves in Africa",
+      "special": "Used to provide free education and healthcare"
+    },
+    {
+      "id": 99,
+      "name": "Liechtenstein",
+      "capital": "Vaduz",
+      "population": "39,327",
+      "region": "Central Europe",
+      "facts": "Doubly landlocked, smaller than Washington DC",
+      "special": "Can be rented for $70,000 per night"
+    },
+    {
+      "id": 100,
+      "name": "Lithuania",
+      "capital": "Vilnius",
+      "population": "2.8 million",
+      "region": "Northern Europe",
+      "facts": "First country to declare independence from USSR",
+      "special": "Has the fastest public WiFi in the world"
+    },
+    {
+      "id": 101,
+      "name": "Luxembourg",
+      "capital": "Luxembourg City",
+      "population": "654,768",
+      "region": "Western Europe",
+      "facts": "Richest country in the world per capita",
+      "special": "Has three official languages"
+    },
+    {
+      "id": 102,
+      "name": "Madagascar",
+      "capital": "Antananarivo",
+      "population": "30.3 million",
+      "region": "East Africa",
+      "facts": "Fourth largest island, unique wildlife like lemurs",
+      "special": "90% of wildlife found nowhere else on Earth"
+    },
+    {
+      "id": 103,
+      "name": "Malawi",
+      "capital": "Lilongwe",
+      "population": "20.4 million",
+      "region": "East Africa",
+      "facts": "Warm heart of Africa, Lake Malawi covers 20% of country",
+      "special": "Has more fish species than any other lake"
+    },
+    {
+      "id": 104,
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur",
+      "population": "34.2 million",
+      "region": "Southeast Asia",
+      "facts": "Has the world's oldest tropical rainforest",
+      "special": "Petronas Towers were world's tallest buildings"
+    },
+    {
+      "id": 105,
+      "name": "Maldives",
+      "capital": "Malé",
+      "population": "521,021",
+      "region": "South Asia",
+      "facts": "Lowest country in the world, 1,192 coral islands",
+      "special": "Average ground level is 1.5 meters above sea level"
+    },
+    {
+      "id": 106,
+      "name": "Mali",
+      "capital": "Bamako",
+      "population": "22.6 million",
+      "region": "West Africa",
+      "facts": "Ancient gold trading empire, Timbuktu located here",
+      "special": "Has the largest mud-brick building in the world"
+    },
+    {
+      "id": 107,
+      "name": "Malta",
+      "capital": "Valletta",
+      "population": "519,562",
+      "region": "Southern Europe",
+      "facts": "Smallest EU member, strategic Mediterranean location",
+      "special": "Has been ruled by nearly every major European power"
+    },
+    {
+      "id": 108,
+      "name": "Marshall Islands",
+      "capital": "Majuro",
+      "population": "42,050",
+      "region": "Oceania",
+      "facts": "29 atolls and 5 islands, US nuclear testing site",
+      "special": "May be first country to disappear due to sea level rise"
+    },
+    {
+      "id": 109,
+      "name": "Mauritania",
+      "capital": "Nouakchott",
+      "population": "4.9 million",
+      "region": "West Africa",
+      "facts": "Bridge between Maghreb and sub-Saharan Africa",
+      "special": "Last country to abolish slavery (1981)"
+    },
+    {
+      "id": 110,
+      "name": "Mauritius",
+      "capital": "Port Louis",
+      "population": "1.3 million",
+      "region": "East Africa",
+      "facts": "Island nation, extinct dodo bird's homeland",
+      "special": "Most developed African country"
+    },
+    {
+      "id": 111,
+      "name": "Mexico",
+      "capital": "Mexico City",
+      "population": "131.6 million",
+      "region": "North America",
+      "facts": "Introduced chocolate and vanilla to the world",
+      "special": "Has 67 national languages"
+    },
+    {
+      "id": 112,
+      "name": "Micronesia",
+      "capital": "Palikir",
+      "population": "115,021",
+      "region": "Oceania",
+      "facts": "607 islands spread across 4 states",
+      "special": "Has some of the best diving sites in the world"
+    },
+    {
+      "id": 113,
+      "name": "Moldova",
+      "capital": "Chișinău",
+      "population": "2.6 million",
+      "region": "Eastern Europe",
+      "facts": "Landlocked, famous for wine production",
+      "special": "Has the world's largest wine cellar"
+    },
+    {
+      "id": 114,
+      "name": "Monaco",
+      "capital": "Monaco",
+      "population": "39,511",
+      "region": "Western Europe",
+      "facts": "Second smallest country, no personal income tax",
+      "special": "Highest concentration of millionaires per capita"
+    },
+    {
+      "id": 115,
+      "name": "Mongolia",
+      "capital": "Ulaanbaatar",
+      "population": "3.4 million",
+      "region": "East Asia",
+      "facts": "Landlocked, nomadic herding culture, Genghis Khan's homeland",
+      "special": "Least densely populated sovereign country"
+    },
+    {
+      "id": 116,
+      "name": "Montenegro",
+      "capital": "Podgorica",
+      "population": "627,809",
+      "region": "Southeast Europe",
+      "facts": "Mountainous country, means 'Black Mountain'",
+      "special": "Has Europe's deepest canyon"
+    },
+    {
+      "id": 117,
+      "name": "Morocco",
+      "capital": "Rabat",
+      "population": "37.8 million",
+      "region": "North Africa",
+      "facts": "Gateway to Africa, produces argan oil",
+      "special": "Only African country with Atlantic and Mediterranean coasts"
+    },
+    {
+      "id": 118,
+      "name": "Mozambique",
+      "capital": "Maputo",
+      "population": "33.9 million",
+      "region": "East Africa",
+      "facts": "Portuguese colonial past, cashew nut producer",
+      "special": "Has a Kalashnikov rifle on its flag"
+    },
+    {
+      "id": 119,
+      "name": "Myanmar",
+      "capital": "Naypyidaw",
+      "population": "55.4 million",
+      "region": "Southeast Asia",
+      "facts": "Golden pagodas, formerly Burma, teak forests",
+      "special": "Driving is on the right but cars have right-hand steering"
+    },
+    {
+      "id": 120,
+      "name": "Namibia",
+      "capital": "Windhoek",
+      "population": "2.6 million",
+      "region": "Southern Africa",
+      "facts": "Namib Desert is world's oldest, diamond mining",
+      "special": "Second least densely populated country"
+    },
+    {
+      "id": 121,
+      "name": "Nauru",
+      "capital": "Yaren",
+      "population": "12,668",
+      "region": "Oceania",
+      "facts": "Smallest island nation, phosphate mining",
+      "special": "Highest obesity rate in the world"
+    },
+    {
+      "id": 122,
+      "name": "Nepal",
+      "capital": "Kathmandu",
+      "population": "30.5 million",
+      "region": "South Asia",
+      "facts": "Home to Mount Everest, birthplace of Buddha",
+      "special": "Only non-rectangular flag in the world"
+    },
+    {
+      "id": 123,
+      "name": "Netherlands",
+      "capital": "Amsterdam",
+      "population": "17.5 million",
+      "region": "Western Europe",
+      "facts": "Has more bikes than residents, invented WiFi",
+      "special": "One-third of country is below sea level"
+    },
+    {
+      "id": 124,
+      "name": "New Zealand",
+      "capital": "Wellington",
+      "population": "5.2 million",
+      "region": "Oceania",
+      "facts": "First country to give women right to vote",
+      "special": "No snakes or dangerous animals"
+    },
+    {
+      "id": 125,
+      "name": "Nicaragua",
+      "capital": "Managua",
+      "population": "7.0 million",
+      "region": "Central America",
+      "facts": "Land of lakes and volcanoes, coffee producer",
+      "special": "Largest country in Central America"
+    },
+    {
+      "id": 126,
+      "name": "Niger",
+      "capital": "Niamey",
+      "population": "27.2 million",
+      "region": "West Africa",
+      "facts": "Largest uranium producer in Africa, Sahara Desert",
+      "special": "Youngest population in the world (median age 15)"
+    },
+    {
+      "id": 127,
+      "name": "Nigeria",
+      "capital": "Abuja",
+      "population": "223.8 million",
+      "region": "West Africa",
+      "facts": "Most populous African country, Nollywood films",
+      "special": "Africa's largest economy"
+    },
+    {
+      "id": 128,
+      "name": "North Korea",
+      "capital": "Pyongyang",
+      "population": "26.1 million",
+      "region": "East Asia",
+      "facts": "Isolated communist state, nuclear weapons program",
+      "special": "Uses its own calendar system (Juche calendar)"
+    },
+    {
+      "id": 129,
+      "name": "North Macedonia",
+      "capital": "Skopje",
+      "population": "2.1 million",
+      "region": "Southeast Europe",
+      "facts": "Alexander the Great's birthplace region, landlocked",
+      "special": "Recently changed name from 'Macedonia'"
+    },
+    {
+      "id": 130,
+      "name": "Norway",
+      "capital": "Oslo",
+      "population": "5.5 million",
+      "region": "Northern Europe",
+      "facts": "Home of midnight sun and Northern Lights",
+      "special": "World's largest sovereign wealth fund"
+    },
+    {
+      "id": 131,
+      "name": "Oman",
+      "capital": "Muscat",
+      "population": "4.6 million",
+      "region": "Western Asia",
+      "facts": "Sultan rules, frankincense trade history",
+      "special": "Has no rivers but many wadis (dry riverbeds)"
+    },
+    {
+      "id": 132,
+      "name": "Pakistan",
+      "capital": "Islamabad",
+      "population": "240.5 million",
+      "region": "South Asia",
+      "facts": "Nuclear power, cricket-loving nation, Indus Valley civilization",
+      "special": "Has the world's second highest mountain (K2)"
+    },
+    {
+      "id": 133,
+      "name": "Palau",
+      "capital": "Ngerulmud",
+      "population": "18,169",
+      "region": "Oceania",
+      "facts": "340 islands, pristine marine environment",
+      "special": "First country to ban reef-toxic sunscreens"
+    },
+    {
+      "id": 134,
+      "name": "Palestine",
+      "capital": "Ramallah/Gaza",
+      "population": "5.4 million",
+      "region": "Western Asia",
+      "facts": "Disputed territory, ancient holy sites",
+      "special": "Recognized by 138 UN member countries"
+    },
+    {
+      "id": 135,
+      "name": "Panama",
+      "capital": "Panama City",
+      "population": "4.4 million",
+      "region": "Central America",
+      "facts": "Famous for Panama Canal, connects two oceans",
+      "special": "Uses US dollar as currency"
+    },
+    {
+      "id": 136,
+      "name": "Papua New Guinea",
+      "capital": "Port Moresby",
+      "population": "10.1 million",
+      "region": "Oceania",
+      "facts": "Over 800 languages spoken, tribal cultures",
+      "special": "Most linguistically diverse country"
+    },
+    {
+      "id": 137,
+      "name": "Paraguay",
+      "capital": "Asunción",
+      "population": "6.9 million",
+      "region": "South America",
+      "facts": "Landlocked, bilingual (Spanish and Guaraní)",
+      "special": "Electricity comes 100% from hydroelectric power"
+    },
+    {
+      "id": 138,
+      "name": "Peru",
+      "capital": "Lima",
+      "population": "33.7 million",
+      "region": "South America",
+      "facts": "Home to Machu Picchu and Inca civilization",
+      "special": "Has the world's deepest canyon"
+    },
+    {
+      "id": 139,
+      "name": "Philippines",
+      "capital": "Manila",
+      "population": "117.3 million",
+      "region": "Southeast Asia",
+      "facts": "7,641 islands, only Christian majority Asian country",
+      "special": "Filipinos are world's biggest texters"
+    },
+    {
+      "id": 140,
+      "name": "Poland",
+      "capital": "Warsaw",
+      "population": "37.7 million",
+      "region": "Central Europe",
+      "facts": "Invented bulletproof vest, 17 Nobel Prize winners",
+      "special": "Has Europe's last primeval forest"
+    },
+    {
+      "id": 141,
+      "name": "Portugal",
+      "capital": "Lisbon",
+      "population": "10.3 million",
+      "region": "Southern Europe",
+      "facts": "Age of exploration pioneer, Port wine origin",
+      "special": "Oldest bookstore in the world (since 1732)"
+    },
+    {
+      "id": 142,
+      "name": "Qatar",
+      "capital": "Doha",
+      "population": "2.7 million",
+      "region": "Western Asia",
+      "facts": "Richest country per capita, 2022 FIFA World Cup host",
+      "special": "No rivers or forests"
+    },
+    {
+      "id": 143,
+      "name": "Romania",
+      "capital": "Bucharest",
+      "population": "19.1 million",
+      "region": "Eastern Europe",
+      "facts": "Dracula's homeland, Carpathian Mountains",
+      "special": "Has the heaviest building in the world"
+    },
+    {
+      "id": 144,
+      "name": "Russia",
+      "capital": "Moscow",
+      "population": "146.4 million",
+      "region": "Eastern Europe/North Asia",
+      "facts": "Largest country by land area, spans 11 time zones",
+      "special": "First country to send human to space"
+    },
+    {
+      "id": 145,
+      "name": "Rwanda",
+      "capital": "Kigali",
+      "population": "14.3 million",
+      "region": "East Africa",
+      "facts": "Land of thousand hills, mountain gorilla habitat",
+      "special": "Cleanest country in Africa"
+    },
+    {
+      "id": 146,
+      "name": "Saint Kitts and Nevis",
+      "capital": "Basseterre",
+      "population": "47,755",
+      "region": "Caribbean",
+      "facts": "Smallest sovereign state in Americas by area",
+      "special": "First British colony in Caribbean"
+    },
+    {
+      "id": 147,
+      "name": "Saint Lucia",
+      "capital": "Castries",
+      "population": "180,251",
+      "region": "Caribbean",
+      "facts": "Named after Saint Lucy, Piton mountains",
+      "special": "Only country named after a woman"
+    },
+    {
+      "id": 148,
+      "name": "Saint Vincent and the Grenadines",
+      "capital": "Kingstown",
+      "population": "104,332",
+      "region": "Caribbean",
+      "facts": "Chain of islands, spice and banana producer",
+      "special": "Filming location for Pirates of the Caribbean"
+    },
+    {
+      "id": 149,
+      "name": "Samoa",
+      "capital": "Apia",
+      "population": "205,557",
+      "region": "Oceania",
+      "facts": "Polynesian culture, traditional tattooing",
+      "special": "Changed from right to left-hand driving in 2009"
+    },
+    {
+      "id": 150,
+      "name": "San Marino",
+      "capital": "San Marino",
+      "population": "34,682",
+      "region": "Southern Europe",
+      "facts": "World's oldest republic (301 AD), surrounded by Italy",
+      "special": "Has more vehicles than people"
+    },
+    {
+      "id": 151,
+      "name": "São Tomé and Príncipe",
+      "capital": "São Tomé",
+      "population": "231,856",
+      "region": "Central Africa",
+      "facts": "Chocolate islands, cocoa producer",
+      "special": "Africa's second smallest country"
+    },
+    {
+      "id": 152,
+      "name": "Saudi Arabia",
+      "capital": "Riyadh",
+      "population": "36.4 million",
+      "region": "Western Asia",
+      "facts": "Birthplace of Islam, world's largest oil exporter",
+      "special": "Women weren't allowed to drive until 2018"
+    },
+    {
+      "id": 153,
+      "name": "Senegal",
+      "capital": "Dakar",
+      "population": "18.4 million",
+      "region": "West Africa",
+      "facts": "Westernmost point of Africa, peanut producer",
+      "special": "Completely surrounds Gambia except for coast"
+    },
+    {
+      "id": 154,
+      "name": "Serbia",
+      "capital": "Belgrade",
+      "population": "6.8 million",
+      "region": "Southeast Europe",
+      "facts": "Landlocked, rich history, strong tennis tradition",
+      "special": "Has been at war more than any other country"
+    },
+    {
+      "id": 155,
+      "name": "Seychelles",
+      "capital": "Victoria",
+      "population": "107,118",
+      "region": "East Africa",
+      "facts": "115 islands, unique granite formations",
+      "special": "Smallest population of any African country"
+    },
+    {
+      "id": 156,
+      "name": "Sierra Leone",
+      "capital": "Freetown",
+      "population": "8.8 million",
+      "region": "West Africa",
+      "facts": "Diamond mining, civil war recovery",
+      "special": "Has the third largest natural harbor"
+    },
+    {
+      "id": 157,
+      "name": "Singapore",
+      "capital": "Singapore",
+      "population": "5.9 million",
+      "region": "Southeast Asia",
+      "facts": "City-state with world's busiest port",
+      "special": "Chewing gum is banned"
+    },
+    {
+      "id": 158,
+      "name": "Slovakia",
+      "capital": "Bratislava",
+      "population": "5.4 million",
+      "region": "Central Europe",
+      "facts": "Landlocked, many castles and mountains",
+      "special": "Produces more cars per capita than any other country"
+    },
+    {
+      "id": 159,
+      "name": "Slovenia",
+      "capital": "Ljubljana",
+      "population": "2.1 million",
+      "region": "Central Europe",
+      "facts": "Alpine country, Lake Bled famous destination",
+      "special": "Most forested country in Europe (60%)"
+    },
+    {
+      "id": 160,
+      "name": "Solomon Islands",
+      "capital": "Honiara",
+      "population": "740,424",
+      "region": "Oceania",
+      "facts": "WWII Pacific theater battles, 900+ islands",
+      "special": "Some people have naturally blonde hair"
+    },
+    {
+      "id": 161,
+      "name": "Somalia",
+      "capital": "Mogadishu",
+      "population": "18.1 million",
+      "region": "East Africa",
+      "facts": "Horn of Africa, nomadic culture, piracy issues",
+      "special": "Has the longest coastline in Africa"
+    },
+    {
+      "id": 162,
+      "name": "South Africa",
+      "capital": "Cape Town/Pretoria/Bloemfontein",
+      "population": "60.4 million",
+      "region": "Southern Africa",
+      "facts": "Rainbow Nation, 11 official languages, apartheid history",
+      "special": "Only country with three capital cities"
+    },
+    {
+      "id": 163,
+      "name": "South Korea",
+      "capital": "Seoul",
+      "population": "51.7 million",
+      "region": "East Asia",
+      "facts": "Fastest internet in world, K-pop global phenomenon",
+      "special": "Plastic surgery capital of the world"
+    },
+    {
+      "id": 164,
+      "name": "South Sudan",
+      "capital": "Juba",
+      "population": "11.9 million",
+      "region": "East Africa",
+      "facts": "World's newest country (2011), oil-rich",
+      "special": "More pyramids than Egypt"
+    },
+    {
+      "id": 165,
+      "name": "Spain",
+      "capital": "Madrid",
+      "population": "47.4 million",
+      "region": "Southern Europe",
+      "facts": "Invented mop and stapler, 44 UNESCO sites",
+      "special": "Birthplace of flamenco and paella"
+    },
+    {
+      "id": 166,
+      "name": "Sri Lanka",
+      "capital": "Sri Jayawardenepura Kotte",
+      "population": "22.2 million",
+      "region": "South Asia",
+      "facts": "Island nation, tea producer, ancient Buddhist sites",
+      "special": "First country to have female prime minister"
+    },
+    {
+      "id": 167,
+      "name": "Sudan",
+      "capital": "Khartoum",
+      "population": "48.1 million",
+      "region": "East Africa",
+      "facts": "Nile River confluence, ancient Nubian kingdoms",
+      "special": "Has more pyramids than Egypt"
+    },
+    {
+      "id": 168,
+      "name": "Suriname",
+      "capital": "Paramaribo",
+      "population": "618,040",
+      "region": "South America",
+      "facts": "Smallest South American country, Dutch colonial past",
+      "special": "Most forested country in the world (93%)"
+    },
+    {
+      "id": 169,
+      "name": "Sweden",
+      "capital": "Stockholm",
+      "population": "10.5 million",
+      "region": "Northern Europe",
+      "facts": "IKEA and ABBA homeland, neutral in wars",
+      "special": "Invented dynamite and Nobel Prize"
+    },
+    {
+      "id": 170,
+      "name": "Switzerland",
+      "capital": "Bern",
+      "population": "8.8 million",
+      "region": "Central Europe",
+      "facts": "Invented velcro and LSD, four official languages",
+      "special": "Most expensive country in the world"
+    },
+    {
+      "id": 171,
+      "name": "Syria",
+      "capital": "Damascus",
+      "population": "23.2 million",
+      "region": "Western Asia",
+      "facts": "Ancient civilization cradle, ongoing civil war",
+      "special": "Damascus is oldest continuously inhabited city"
+    },
+    {
+      "id": 172,
+      "name": "Taiwan",
+      "capital": "Taipei",
+      "population": "23.9 million",
+      "region": "East Asia",
+      "facts": "Technology powerhouse, disputed sovereignty",
+      "special": "Produces 60% of world's semiconductors"
+    },
+    {
+      "id": 173,
+      "name": "Tajikistan",
+      "capital": "Dushanbe",
+      "population": "10.1 million",
+      "region": "Central Asia",
+      "facts": "Mountainous, 90% of country above 3,000ft",
+      "special": "Has the world's tallest dam"
+    },
+    {
+      "id": 174,
+      "name": "Tanzania",
+      "capital": "Dodoma",
+      "population": "67.4 million",
+      "region": "East Africa",
+      "facts": "Mount Kilimanjaro, Serengeti wildlife",
+      "special": "Human footprints found here date 3.6 million years"
+    },
+    {
+      "id": 175,
+      "name": "Thailand",
+      "capital": "Bangkok",
+      "population": "71.7 million",
+      "region": "Southeast Asia",
+      "facts": "Land of smiles, never colonized, Buddhist temples",
+      "special": "Only Southeast Asian country never colonized"
+    },
+    {
+      "id": 176,
+      "name": "Togo",
+      "capital": "Lomé",
+      "population": "8.8 million",
+      "region": "West Africa",
+      "facts": "Narrow strip of land, phosphate mining",
+      "special": "Narrowest country in Africa (57km wide)"
+    },
+    {
+      "id": 177,
+      "name": "Tonga",
+      "capital": "Nuku'alofa",
+      "population": "107,773",
+      "region": "Oceania",
+      "facts": "Polynesian kingdom, 169 islands",
+      "special": "Never been colonized by European power"
+    },
+    {
+      "id": 178,
+      "name": "Trinidad and Tobago",
+      "capital": "Port of Spain",
+      "population": "1.5 million",
+      "region": "Caribbean",
+      "facts": "Twin island nation, carnival culture, steel drums",
+      "special": "Invented the steel drum"
+    },
+    {
+      "id": 179,
+      "name": "Tunisia",
+      "capital": "Tunis",
+      "population": "12.5 million",
+      "region": "North Africa",
+      "facts": "Arab Spring birthplace, ancient Carthage",
+      "special": "Most democratic country in Arab world"
+    },
+    {
+      "id": 180,
+      "name": "Turkey",
+      "capital": "Ankara",
+      "population": "85.3 million",
+      "region": "Western Asia/Southeast Europe",
+      "facts": "Transcontinental country, Byzantine and Ottoman heritage",
+      "special": "Only country spanning two continents"
+    },
+    {
+      "id": 181,
+      "name": "Turkmenistan",
+      "capital": "Ashgabat",
+      "population": "6.1 million",
+      "region": "Central Asia",
+      "facts": "Natural gas reserves, 'Door to Hell' gas crater",
+      "special": "President renamed months after his family"
+    }
+]
