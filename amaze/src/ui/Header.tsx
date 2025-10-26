@@ -40,18 +40,17 @@ export function Header() {
       <header className="fixed top-0 left-0 w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/10 shadow-lg">
         <nav className="container mx-auto px-5 md:px-8 py-3 md:py-4 flex justify-between items-center">
           {/* Brand */}
-          <Link
-            to="/"
+          <p  
             className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-red-900 via-orange-500 via-yellow-300 via-green-300 via-blue-300 via-purple-300 to-indigo-500 bg-clip-text text-transparent tracking-wider flex items-center gap-2 drop-shadow-md hover:scale-105 transition-all duration-500"
           >
             Earth Explorer
-          </Link>
+          </p>
 
           {/* Hamburger Menu - only visible when sidebar is closed */}
           {!isOpen && (
             <button
               onClick={() => setIsOpen(true)}
-              className="text-white/90 hover:text-yellow-400 transition-all p-2 rounded-md focus:outline-none"
+              className="text-white/90 hover:text-yellow-400 transition-all p-2 rounded-md focus:outline-none "
             >
               <div className="space-y-1 w-7 h-7">
                 <span className="block w-full h-0.5 bg-current" />
@@ -72,7 +71,7 @@ export function Header() {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="fixed inset-y-0 right-0 w-[280px] max-w-[90vw] bg-gradient-to-br backdrop-blur-md border-l border-white/10 shadow-[ -10px_0_30px_rgba(0,0,0,0.5)] flex flex-col py-8 px-6 z-[70]"
+            className="fixed inset-y-0 right-0 w-[280px] max-w-[90vw] bg-gradient-to-br backdrop-blur-none border-l border-white/10 shadow-[ -10px_0_30px_rgba(0,0,0,0.5)] flex flex-col py-8 px-6 z-[70]"
             // className="fixed inset-y-0 right-0 w=[280px] max-w-[90vw] bg-gradient-to-br backdrop-blur-md border-l flex flex-col py-8 px-6 z-[70]"
             onClick={(e) => e.stopPropagation()}
           >
@@ -114,17 +113,17 @@ export function Header() {
       </AnimatePresence>
 
       {/* Background Blur Overlay */}
-      <AnimatePresence>
+      {/* <AnimatePresence>
         {isOpen && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.5 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[60]"
+            className="fixed inset-0 bg-black/50 backdrop-blur-none z-[60]"
             onClick={closeNavbar}
           />
         )}
-      </AnimatePresence>
+      </AnimatePresence> */}
     </>
   );
 }

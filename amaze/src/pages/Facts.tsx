@@ -88,30 +88,30 @@ export const Facts = () => {
   return (
     <div className="min-h-screen relative bg-gradient-to-br from-blue-950 via-indigo-950 to-black text-white">  
       <div className="absolute inset-0 bg-black/50 backdrop-blur-md -z-10" /> 
-      <div className="relative z-10 container mx-auto px-6 py-12 space-y-6">  
+      <div className="relative z-2 container mx-auto px-6 py-6 space-y-6">  
         {/* Animated Heading */}
-        <h2
+        <h3
           ref={headingRef}
-          className="text-4xl md:text-5xl font-bold mb-14 text-center text-white drop-shadow-2xl"  // White text with strong drop shadow for shine
+          className="text-2xl md:text-5xl font-bold mb-10 text-center text-white drop-shadow-2xl"  // White text with strong drop shadow for shine
         >
           Here are the Interesting Facts <br /> we're proud of
-        </h2>
+        </h3>
 
         {/* Fact Cards */}
         <div
           ref={containerRef}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
         >
           {countryData.map((data) => {
             const { id, name, capital, population, region, facts } = data;
             return (
               <div
                 key={id}
-                className="fact-card bg-black/50 backdrop-blur-md rounded-xl p-8 shadow-xl cursor-pointer transition-all duration-500 border border-white/10"  // Login-like bg-black/50 blur rounded-xl, border for shine
+                className="fact-card bg-black/70 backdrop-blur-md rounded-xl p-6 shadow-xl cursor-pointer transition-all duration-500 border border-white/20"  // Login-like bg-black/50 blur rounded-xl, border for shine
               >
-                <p className="text-2xl font-semibold mb-4 text-yellow-400 drop-shadow-md">{name}</p> 
-                <p className="text-gray-200/90 mb-2">  
-                  <span className="font-medium">Capital: </span>
+                <p className="text-3xl font-midbold mb-4 text-yellow-400 drop-shadow-md">{name}</p> 
+                <p className="text-gray-200/90 mb-2 ">  
+                  <span className="font-md text-lg text-yellow-400">Capital: </span>
                   {capital}
                 </p>
                 {/* <p className="text-gray-200/90 mb-2">
@@ -119,11 +119,11 @@ export const Facts = () => {
                   {population.toLocaleString()}
                 </p> */}
                 <p className="text-gray-200/90 mb-2">
-                  <span className="font-medium">Region: </span>
+                  <span className="font-md text-lg text-yellow-400">Region: </span>
                   {region}
                 </p>
                 <p className="mt-2 text-gray-200/90">
-                  <span className="font-medium">Interesting Facts: </span>
+                  <span className="font-md text-lg text-yellow-400">Interesting Facts: </span>
                   {facts}
                 </p>
               </div>

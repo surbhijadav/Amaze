@@ -22,11 +22,11 @@ export function FullLayout() {
       )}
 
       {!isHome && (
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-950 via-indigo-950 to-black -z-10"></div>  // Matches login page gradient
+        <div className="absolute inset-0 bg-gradient-to-br backdrop-blur-none from-blue-950 via-indigo-950 to-black -z-10"></div>  // Matches login page gradient
       )}
 
       {/* Header */}
-      <header className={`fixed top-0 left-0 w-full z-20 backdrop-blur-md ${!isHome ? 'bg-black/40' : ''}`}>
+      <header className={`fixed top-0 left-0 w-full z-20  backdrop-blur-md ${!isHome ? 'bg-black/90' : ''}`}>
         <Header />
       </header>
 

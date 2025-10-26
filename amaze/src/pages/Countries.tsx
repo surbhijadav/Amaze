@@ -51,20 +51,20 @@ export const Countries = () => {
     );
 
   return (
-    <div className="min-h-screen relative bg-gradient-to-br from-blue-950 via-indigo-950 to-black text-white">      
-    <motion.h2
+    <div className="min-h-screen relative bg-gradient-to-br from-blue-950 via-indigo-950 to-black text-white px-6 sm:px-8 md:px-12 py-14">      
+    <motion.h5
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="text-5xl md:text-6xl font-bold text-center mb-14 tracking-wide"
+        className="text-5xl md:text-5xl font-bold text-center mb-10 tracking-wide"
       >
         🌍 Discover the{" "}
         <span className="text-yellow-400 drop-shadow-[0_0_10px_#FFD700]">
           World’s Nations
         </span>
-      </motion.h2>
+      </motion.h5>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
         {data?.map((country) => (
           <motion.div
             key={country.name.common}
@@ -75,9 +75,9 @@ export const Countries = () => {
               boxShadow: "0 0 25px rgba(255,215,0,0.3)",
             }}
             transition={{ duration: 0.4 }}
-            className="country-card bg-black/50 backdrop-blur-md rounded-xl p-8 shadow-xl cursor-pointer transition-all duration-500 border border-white/10"
+            className="country-card bg-black/50 backdrop-blur-md rounded-xl p-5 shadow-xl cursor-pointer transition-all duration-500 border border-white/10"
           >
-            <div className="bg-blue/75 rounded-2xl p-5 flex flex-col h-full">
+            <div className="bg-blue/75 rounded-2xl p-1.5 flex flex-col h-full">
               <img
                 src={country.flags.png}
                 alt={country.name.common}
@@ -88,6 +88,7 @@ export const Countries = () => {
               </h2>
               <p className="text-white/85 mb-1">
                 <span className="font-semibold text-yellow-300">Region:</span>{" "}
+
                 {country.region}
               </p>
               {country.capital && (
