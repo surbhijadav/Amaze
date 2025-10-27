@@ -27,6 +27,7 @@ export const RegionDetail = () => {
 
       cards.forEach((card) => {
         gsap.fromTo(
+
           card,
           { opacity: 0, y: 40, scale: 0.9 },
           {
@@ -74,7 +75,7 @@ export const RegionDetail = () => {
             return (
               <div
                 key={country.cca3}
-                className="country-card fact-card bg-black/50 backdrop-blur-md rounded-xl p-8 shadow-xl cursor-pointer transition-all duration-500 border border-white/10"
+                className="country-card fact-card bg-black/50 backdrop-blur-md rounded-xl p-5 shadow-xl cursor-pointer transition-all duration-500 border border-white/10"
               >
                 {/* Flag */}
                 <img

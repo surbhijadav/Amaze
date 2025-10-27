@@ -8,7 +8,7 @@ export function FullLayout() {
 
   return (
     <div className="relative min-h-screen flex flex-col overflow-hidden">
-      {/* Home page video (covers entire home page) */}
+      {/* Home page video */}
       {isHome && (
         <video
           autoPlay
@@ -21,17 +21,20 @@ export function FullLayout() {
         </video>
       )}
 
+      {/* Background for other pages */}
       {!isHome && (
-        <div className="absolute inset-0 bg-gradient-to-br backdrop-blur-none from-blue-950 via-indigo-950 to-black -z-10"></div>  // Matches login page gradient
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-950 via-indigo-950 to-black -z-10"></div>
       )}
 
       {/* Header */}
-      <header className={`fixed top-0 left-0 w-full z-20  backdrop-blur-md ${!isHome ? 'bg-black/90' : ''}`}>
-        <Header />
-      </header>
+      <Header />
 
       {/* Page Content */}
-      <main className={`relative z-10 flex-1 flex flex-col ${!isHome ? 'pt-[80px] pb-10' : 'pb-10'}`}>
+      <main
+        className={`relative z-10 flex-1 flex flex-col ${
+          !isHome ? 'pt-[80px] pb-10' : 'pb-10'
+        }`}
+      >
         <Outlet />
       </main>
 
