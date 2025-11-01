@@ -8,12 +8,12 @@ export function Footer() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       viewport={{ once: true }}
-      className="mt-auto bg-gradient-to-r from-blue-950/60 to-gray-900/60 backdrop-blur-md text-gray-200/80 py-8 relative overflow-hidden"
+      className="mt-auto bg-gradient-to-br from-indigo-950/50 via-black-950/50 to-blue-950 backdrop-blur-md text-gray-200/80 py-8 relative overflow-hidden"
     >
       {/* Enhanced Starry Overlay (Faint Twinkle) */}
-      <div className="absolute inset-0 opacity-20">
+      {/* <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[radial-gradient(1px_1px_at_top_left,_rgba(128,128,128,0.4)_100%,_transparent_100%)] bg-[length:40px_40px] animate-twinkle" />
-      </div>
+      </div> */}
       
       <div className="relative z-10 container mx-auto px-4 text-center">
         <p className="text-gray-200/80 mb-4">© 2025 Earth Explorer. Discover the world, one region at a time.</p>

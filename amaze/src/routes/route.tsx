@@ -11,6 +11,7 @@ import { Regions } from "../pages/Regions";
 import { ProtectedRoute } from "./protectedRoute";
 import { PublicLayout } from "../components/publicLayout";
 import { RegionDetail } from "../pages/regionDetails";
+import { CountryCard } from "../components/countryInfo";
 
 // Define your routes here
 export const AppRoutes = createBrowserRouter([
@@ -40,6 +41,12 @@ export const AppRoutes = createBrowserRouter([
         element: <Countries />,
         // <ProtectedRoute></ProtectedRoute>,
       },
+      {
+        path: "countries/:countryName",  
+        element:<CountryCard />,
+        //  <ProtectedRoute></ProtectedRoute>,
+      },
+      
       {
         path: "facts",
         element:<Facts />,

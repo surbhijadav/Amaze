@@ -25,7 +25,9 @@ export function FullLayout() {
       {!isHome && (
         <div className="absolute inset-0 bg-gradient-to-br from-blue-950 via-indigo-950 to-black -z-10"></div>
       )}
-
+     {/* {!isHome && (
+        <div className="absolute inset-0 bg-gradient-to-br from-black to-black -z-10"></div>
+      )} */}
       {/* Header */}
       <Header />
 

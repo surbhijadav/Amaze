@@ -120,6 +120,7 @@ export function Header() {
                 { to: "/regions", icon: <FaMapMarkerAlt />, label: "Regions" },
                 { to: "/countries", icon: <IoFlag />, label: "Countries" },
                 { to: "/facts", icon: <FaLightbulb />, label: "Facts" },
+                { to: "/about", icon: <FaLightbulb />, label: "About" },
               ].map(({ to, icon, label }) => (
                 <motion.li key={label} variants={linkVariants}>
                   <Link

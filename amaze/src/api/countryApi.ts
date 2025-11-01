@@ -3,13 +3,34 @@
 export const BASE_URL = "https://restcountries.com/v3.1";
 
 // Define Fact type
-export type Fact = {
-  name: { common: string };   // name object from API
+// src/api/countryApi.ts
+
+export interface Fact {
+  name: {
+    common: string;
+    official: string;
+    nativeName?: Record<string, { official: string; common: string }>;
+  };
+  flags: {
+    png: string;
+    svg: string;
+    alt?: string;
+  };
+  region: string;
+  subregion?: string;
   capital?: string[];
   population: number;
-  region: string;
-  flags: { png: string; svg: string };
-};
+  languages?: Record<string, string>;
+  currencies?: Record<string, { name: string; symbol: string }>;
+  tld?: string[];
+  timezones?: string[];
+  borders?: string[];
+  maps?: {
+    googleMaps: string;
+    openStreetMaps: string;
+  };
+}
+
 
 // GET all countries (facts)
 export const getFacts = async (): Promise<Fact[]> => {

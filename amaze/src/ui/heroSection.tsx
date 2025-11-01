@@ -118,10 +118,10 @@ export const HeroSection = () => {
           Explore 195 countries across 5 major regions — from Africa's savannas to Oceania's reefs.
         </p>
         <Link
-          to="/regions"
+          to="/countries"
           className="bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300"
         >
-          Explore Regions
+          Explore Countries
         </Link>
       </section>
     </div>
