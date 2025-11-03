@@ -8,6 +8,7 @@ export const store = configureStore({
     regions: regionsReducer,
     auth : authReducer
   },
+  
 })
 
 export type RootState = ReturnType<typeof store.getState>
