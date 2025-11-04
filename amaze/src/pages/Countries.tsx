@@ -1,4 +1,3 @@
-// src/pages/Countries.tsx
 import { useQuery } from "@tanstack/react-query";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 import { getFacts, type Fact } from "../api/countryApi";
@@ -14,31 +13,39 @@ export const Countries = () => {
   });
 
   const [index, setIndex] = useState(0);
+  const [itemsPerPage, setItemsPerPage] = useState(4);
+  const [cardWidth, setCardWidth] = useState(240);
+  const gap = 20;
+
   const carouselRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
 
-  // 💡 Configuration
-  const itemsPerPage = 4;
-  const cardWidth = 280;
-  const gap = 32;
-  const groupWidth = itemsPerPage * cardWidth + (itemsPerPage - 1) * gap;
-
-  // 🌀 Initial slide-in animation
+  // 🔹 Responsive Layout
   useEffect(() => {
-    if (isLoading || !data || !carouselRef.current) return;
-    const el = carouselRef.current;
-    gsap.fromTo(el, { x: groupWidth }, { x: 0, duration: 1.2, ease: "power2.out" });
-  }, [data]);
+    const updateLayout = () => {
+      const w = window.innerWidth;
+      if (w < 640) setItemsPerPage(1);
+      else if (w < 1024) setItemsPerPage(2);
+      else if (w < 1280) setItemsPerPage(3);
+      else setItemsPerPage(4);
+    };
+    updateLayout();
+    window.addEventListener("resize", updateLayout);
+    return () => window.removeEventListener("resize", updateLayout);
+  }, []);
 
-  // 🎞️ Slide animation when index changes
+  // 🎞️ GSAP Animation
   useEffect(() => {
     if (!carouselRef.current || !data) return;
-    const el = carouselRef.current;
-    const targetX = -index * groupWidth;
-    gsap.to(el, { x: targetX, duration: 1.5, ease: "power2.inOut" });
-  }, [index, data]);
+    const totalWidth = cardWidth + gap;
+    gsap.to(carouselRef.current, {
+      x: -index * itemsPerPage * totalWidth,
+      duration: 0.8,
+      ease: "power2.inOut",
+    });
+  }, [index, data, itemsPerPage]);
 
-  // ⏳ Loading and Error UI
+  // 🧠 Loading & Error States
   if (isLoading)
     return (
       <div className="text-center text-white mt-40 text-xl animate-pulse">
@@ -49,34 +56,27 @@ export const Countries = () => {
   if (isError)
     return (
       <div className="text-center text-red-400 mt-40 text-lg">
-        Failed to load country data.
+        Failed to load data.
       </div>
     );
 
-  // 🌍 Data & Pagination setup
   const countries = data || [];
   const totalPages = Math.ceil(countries.length / itemsPerPage);
 
-  const next = () => setIndex((prev) => (prev + 1) % totalPages);
-  const prev = () => setIndex((prev) => (prev - 1 + totalPages) % totalPages);
+  const next = () => setIndex((i) => Math.min(i + 1, totalPages - 1));
+  const prev = () => setIndex((i) => Math.max(i - 1, 0));
 
-  // ✂️ Text truncation utility
-  const truncate = (text: string | number, limit: number) => {
-    if (!text) return "N/A";
-    const str = text.toString();
-    return str.length > limit ? str.slice(0, limit) + "..." : str;
-  };
+  const truncate = (text: string | number, limit: number) =>
+    text ? text.toString().slice(0, limit) + (text.toString().length > limit ? "..." : "") : "N/A";
 
-  // 🌈 Main Render
+  // 🌍 Render
   return (
-    <div className="min-h-screen relative bg-gradient-to-br from-blue-950 via-indigo-950 to-black text-white flex flex-col items-center justify-start px-6 py-6 overflow-hidden">
-      
-      {/* 🌍 Title */}
+    <div className="min-h-screen bg-gradient-to-br from-blue-950 via-indigo-950 to-black text-white flex flex-col items-center py-10 overflow-hidden">
       <motion.h2
-        initial={{ opacity: 0, y: -30, scale: 0.8 }}
-        animate={{ opacity: 1, y: 0, scale: 1 }}
-        transition={{ duration: 1, ease: "easeOut" }}
-        className="text-5xl font-semibold text-center mb-2 tracking-wide"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 tracking-wide text-center"
       >
         🌍 Discover the{" "}
         <span className="text-yellow-300 drop-shadow-[0_0_10px_#FFD700]">
@@ -84,91 +84,75 @@ export const Countries = () => {
         </span>
       </motion.h2>
 
-      {/* 🌐 Carousel */}
+      {/* Carousel */}
       <div className="relative w-full flex flex-col items-center">
-        {/* 👇 Centered visible area (Only 4 cards visible) */}
         <div
           className="overflow-hidden mx-auto"
-          style={{ width: `${groupWidth}px` }}
+          style={{
+            width: `${itemsPerPage * cardWidth + (itemsPerPage - 1) * gap}px`,
+          }}
         >
-          <div
+          <motion.div
             ref={carouselRef}
-            className="flex gap-8 py-8"
-            style={{
-              width: `${countries.length * (cardWidth + gap) - gap}px`,
-            }}
+            className="flex gap-5 py-6 cursor-grab active:cursor-grabbing"
           >
-            {countries.map((country) => (
+            {countries.map((country, i) => (
               <motion.div
-                key={country.name.common}
+                key={i}
                 whileHover={{
-                  scale: 1.08,
-                  y: -6,
-                  boxShadow: "0 0 30px rgba(255,215,0,0.6)",
+                  scale: 1.05,
+                  y: -4,
+                  boxShadow: "0 0 20px rgba(255,215,0,0.5)",
                 }}
-                transition={{ duration: 0.4, ease: "easeInOut" }}
-                className="flex-shrink-0 w-[280px] bg-black/40 backdrop-blur-md border border-white/10 rounded-xl p-5 flex flex-col items-center justify-center text-center shadow-lg cursor-pointer hover:shadow-[0_0_20px_#FFD700]/40 transition-all duration-500"
+                transition={{ duration: 0.3 }}
+                className="flex-shrink-0 w-[220px] sm:w-[230px] md:w-[240px] bg-black/40 backdrop-blur-md border border-white/10 rounded-xl p-4 flex flex-col items-center text-center shadow-lg transition-all duration-500"
               >
                 <img
                   src={country.flags.png}
                   alt={country.name.common}
-                  className="w-full h-[140px] object-cover rounded mb-2 border border-white/10"
+                  className="w-full h-[110px] object-cover rounded mb-3 border border-white/10"
                 />
-
-                <h3 className="text-xl font-semibold text-yellow-300">
-                  {truncate(country.name.common, 12)}
+                <h3 className="text-lg font-semibold text-yellow-300">
+                  {truncate(country.name.common, 10)}
                 </h3>
-
-                <p className="text-white/85 mt-1">
-                  Region: {truncate(country.region, 12)}
+                <p className="text-white/85 text-sm mt-1">
+                  {truncate(country.region, 12)}
                 </p>
-
                 {country.capital && (
-                  <p className="text-white/70 text-sm">
-                    Capital: {truncate(country.capital.join(", "), 12)}
+                  <p className="text-white/70 text-xs mt-0.5">
+                    Capital: {truncate(country.capital.join(", "), 10)}
                   </p>
                 )}
-
                 <motion.button
                   whileHover={{
                     scale: 1.05,
                     backgroundColor: "#FFD700",
-                    boxShadow: "0 0 20px rgba(255,215,0,0.6)",
+                    color: "#000",
                   }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ duration: 0.3 }}
                   onClick={() => navigate(`/countries/${country.name.common}`)}
-                  className="bg-yellow-300 hover:bg-yellow-400 mt-3 rounded-lg text-black px-3 py-2 text-sm font-semibold transition-all duration-500"
+                  className="mt-3 px-3 py-1.5 text-xs font-semibold bg-yellow-300 rounded-md text-black hover:bg-yellow-400"
                 >
                   Read More
                 </motion.button>
               </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
 
-        {/* 🎮 Navigation Buttons */}
+        {/* Controls */}
         <div className="flex items-center gap-10 mt-6 justify-center">
-          <motion.button
-            onClick={prev}
-            whileTap={{ scale: 0.9 }}
-            whileHover={{ scale: 1.15 }}
-            transition={{ type: "spring", stiffness: 250 }}
-          >
-            <FaArrowCircleLeft className="text-5xl p-3 bg-yellow-300/25 text-yellow-400 rounded-full shadow-[0_0_15px_rgba(255,215,0,0.4)] hover:shadow-[0_0_25px_rgba(255,215,0,0.8)] hover:bg-yellow-400 hover:text-black transition-all duration-300 ease-in-out" />
+          <motion.button onClick={prev} whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }}>
+            <FaArrowCircleLeft className="text-4xl p-2 bg-yellow-300/20 text-yellow-400 rounded-md hover:bg-yellow-400 hover:text-black transition-all duration-300" />
           </motion.button>
 
-          <div className="text-white text-2xl font-bold bg-black/40 px-4 py-2 rounded-full border border-yellow-300/50 shadow-[0_0_10px_rgba(255,215,0,0.3)]">
+          <div className="text-white text-xs sm:text-sm font-bold bg-black/40 px-3 py-1.5 rounded-md border border-yellow-300/50">
             {index + 1}/{totalPages}
           </div>
 
-          <motion.button
-            onClick={next}
-            whileTap={{ scale: 0.9 }}
-            whileHover={{ scale: 1.15 }}
-            transition={{ type: "spring", stiffness: 250 }}
-          >
-            <FaArrowCircleRight className="text-5xl p-3 bg-yellow-300/25 text-yellow-400 rounded-full shadow-[0_0_15px_rgba(255,215,0,0.4)] hover:shadow-[0_0_25px_rgba(255,215,0,0.8)] hover:bg-yellow-400 hover:text-black transition-all duration-300 ease-in-out" />
+          <motion.button onClick={next} whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.1 }}>
+            <FaArrowCircleRight className="text-4xl p-2 bg-yellow-300/20 text-yellow-400 rounded-md hover:bg-yellow-400 hover:text-black transition-all duration-300" />
           </motion.button>
         </div>
       </div>
