@@ -15,6 +15,7 @@ export const Countries = () => {
   const [index, setIndex] = useState(0);
   const [itemsPerPage, setItemsPerPage] = useState(4);
   const [cardWidth, setCardWidth] = useState(240);
+  const heroRef = useRef<HTMLDivElement>(null);
   const gap = 20;
 
   const carouselRef = useRef<HTMLDivElement>(null);
@@ -45,6 +46,39 @@ export const Countries = () => {
     });
   }, [index, data, itemsPerPage]);
 
+  useEffect(() => {
+    if (!heroRef.current) return;
+    const title = heroRef.current;
+    const text = title.textContent || "";
+  
+    // Clear old text
+    title.textContent = "";
+  
+    // Split into spans
+    const letters = text.split("").map((char) => {
+      const span = document.createElement("span");
+      span.textContent = char;
+      if (char === " ") span.innerHTML = "&nbsp;";
+      title.appendChild(span);
+      return span;
+    });
+  
+    // Animate
+    gsap.fromTo(
+      letters,
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        stagger: 0.1,
+        ease: "power3.out",
+        duration: 0.8,
+        delay: 0.3,
+      }
+    );
+  }, []); // run once on mount
+  
+
   // 🧠 Loading & Error States
   if (isLoading)
     return (
@@ -72,17 +106,15 @@ export const Countries = () => {
   // 🌍 Render
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-950 via-indigo-950 to-black text-white flex flex-col items-center py-10 overflow-hidden">
-      <motion.h2
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+      <h2
+         ref={heroRef}
         className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 tracking-wide text-center"
       >
         🌍 Discover the{" "}
         <span className="text-yellow-300 drop-shadow-[0_0_10px_#FFD700]">
           World’s Nations
         </span>
-      </motion.h2>
+      </h2>
 
       {/* Carousel */}
       <div className="relative w-full flex flex-col items-center">
